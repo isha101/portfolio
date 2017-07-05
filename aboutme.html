@@ -52,7 +52,7 @@ body {font-family: "Lato", sans-serif;}
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: ;
+    background-color: #FF356A;
 }
 
 /* Style the buttons inside the tab */
@@ -93,6 +93,7 @@ div.tab button.active {
   <button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
   <button class="tablinks" onclick="openCity(event, 'About Me')">About  Me</button>
   <button class="tablinks" onclick="openCity(event, 'Contact Me')">Contact Me</button>
+  <button class="tablinks" onclick="openCity(event, 'Portfolio')">Portfolio</button>
 </div>
 
 <div id="Resume" class="tabcontent">
@@ -119,6 +120,11 @@ div.tab button.active {
   <h3>Contact Me</h3>
   <p>Here is my contact info.</p>
 </div>
+
+<div id="Portfolio" class="tabcontent">
+  <h3>Portfolio</h3>
+  <p>scratch.edu</p>
+</div> 
 
 <script>
 function openCity(evt, cityName) {
